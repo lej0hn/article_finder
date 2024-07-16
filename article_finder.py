@@ -16,7 +16,7 @@ def parser(url, keyword):
 
 
 ####Prints and returns dictionary with name of article as key
-#  and it's link as value ####
+#  and its link as value ####
 def searcher(url,results):
     if len(results) != 0:
         for result in results:
